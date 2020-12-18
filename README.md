@@ -1,5 +1,7 @@
 ###Dockerfile for OpenEats with everything except the database
 
+Based on [CorneliousJD/OpenEats-Docker](https://github.com/CorneliousJD/OpenEats-Docker)
+
 Here's a basic example of usage with docker-compose:
 
 ```yaml
