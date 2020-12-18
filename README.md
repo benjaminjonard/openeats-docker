@@ -1,4 +1,4 @@
-###Dockerfile for OpenEats with everything except the database.
+###Dockerfile for OpenEats with everything except the database
 
 Here's a basic example of usage with docker-compose:
 
@@ -6,7 +6,7 @@ Here's a basic example of usage with docker-compose:
 version: '3.1'
 services:
   openeats:
-    build: ./
+    build: benjaminjonard/openeats
     depends_on:
       - mysql
     ports:
