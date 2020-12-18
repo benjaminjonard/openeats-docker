@@ -8,7 +8,7 @@ Here's a basic example of usage with docker-compose:
 version: '3.1'
 services:
   openeats:
-    build: benjaminjonard/openeats
+    image: benjaminjonard/openeats
     depends_on:
       - mysql
     ports:
